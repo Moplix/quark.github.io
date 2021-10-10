@@ -1,0 +1,242 @@
+@font-face
+{
+font-family: "NMF";
+src: url(mcfont.ttf);
+}
+@font-face
+{
+font-family: "NMF1";
+src: url(mcfont2.ttf);
+}
+@font-face
+{
+font-family: "NMF2";
+src: url(MinecraftTen.afc85760.ttf);
+}
+@font-face
+{
+font-family: "NMF3";
+src: url(mcfont3.ttf);
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #3a3a3a;
+	
+}
+.menuBar{
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background-color: #2a2a2a;
+	position: fixed;
+	top: 0px;
+	box-shadow: 0px 1px 2px #000000;
+	font-family: "NMF3";
+	color: aliceblue;
+	z-index: 99999;
+}
+p{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 5px;
+	margin-left: 5%;
+	font-family: "NMF2";
+	text-shadow: 3px 3px 3px #a515ec;
+	font-size: 30px;
+}
+span{
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 5px;
+	margin-right: 5%;
+	font-family: "NMF";
+	text-shadow: 3px 3px 3px #a515ec;
+	font-size: 30px;
+}
+.button-text {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    background: linear-gradient(#009147,#008542);
+    border: 0;
+    font-family: "NMF";
+    color: #fff;
+    padding: .6rem .9rem;
+    font-size: 1.4rem;
+    margin: 4px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-weight: 100;
+    font-style: normal;
+    text-shadow: 0px 4px 1px #004a23;
+    --border: #000;
+    --top-border: #27ce40;
+    --bottom-border: #064d2a;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 0 -3px 0 0 var(--top-border),0 3px 0 0 var(--bottom-border),-3px 0 0 0 #0c6e3d,3px 0 0 0 #0c6e3d,-2px -5px 0 0 var(--border),2px -5px 0 0 var(--border),-5px -2px 0 0 var(--border),5px -2px 0 0 var(--border),-2px 5px 0 0 var(--border),2px 5px 0 0 var(--border),-5px 2px 0 0 var(--border),5px 2px 0 0 var(--border);
+	float: left;
+	margin: 10px;
+}
+.button-text:hover{
+	    background: linear-gradient(#0a9a50, #0a8f4c);
+	  
+}
+.button-text:active{
+	 background: #008943;
+	    --top-border: #064d2a;
+	    --bottom-border: #27ce40;
+}
+.ButtonPanel{
+	width: 500px;
+	height: auto;
+	left: 50%;
+	margin-left: -220px;
+	top: calc(50vh);
+	position: relative;
+}
+.textPanel{
+	position: relative;
+	margin: 0px;
+	
+	top: calc(40vh);
+	text-align: center;
+	font-family: "NMF3";
+	color: snow;
+	font-size: 13px;
+	text-shadow: 1px 5px 2px #000000;
+	align-content: center!important;
+	align-items: center!important;
+	
+}
+.textPanel h1{
+	width: auto;
+	align-items: center;
+	align-content: center;
+}
+.headPage{
+	text-align: center !important;
+	width: 100%;
+	height: calc(100vh);
+	background-image: url("https://bedrocklauncher.github.io/images/banners/1.09_combat_update_java.jpg");
+	background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 55%;
+    background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0.4);
+}
+.endPage{
+	width: 100%;
+	height: auto;
+	background-color: #282828;
+	text-align: center;
+}
+.contactUs{
+	text-decoration: none;
+	display: block;
+	background: linear-gradient(#3f0001,#460001);
+	border: 0;
+	font-family: "NMF3";
+	color: #fff;
+	padding: .6rem .9rem;
+	font-size: 1.4rem;
+	font-weight: 100;
+	font-style: normal;
+	text-shadow: 0px 4px 1px #4a1617;
+	--border: #000;
+	--top-border: #630d10;
+	--bottom-border: #4d0607;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	box-shadow: 0 -3px 0 0 var(--top-border),0 3px 0 0 var(--bottom-border),-3px 0 0 0 #551112,3px 0 0 0 #4c090e,-2px -5px 0 0 var(--border),2px -5px 0 0 var(--border),-5px -2px 0 0 var(--border),5px -2px 0 0 var(--border),-2px 5px 0 0 var(--border),2px 5px 0 0 var(--border),-5px 2px 0 0 var(--border),5px 2px 0 0 var(--border);
+	position: relative;
+	left: auto;
+	top: 30px;
+	margin-left: 80px;
+	margin-right: 80px;
+	opacity: 0.6;
+	margin-bottom: 60px;
+}
+.downPull{
+	padding: 0px;
+	margin: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	font-family: "NMF3";
+	color: white;
+	position: relative;
+	height: auto;
+}
+.downPull h3{
+	width: 100%;
+}
+.teamCounsult{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	font-family: "NMF3";
+	color: white;
+	text-shadow: 1px 2px 2px #000000;
+}
+img{
+	margin: 10px;
+	width: 400px;
+	border: 2px solid #393939;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #000000;
+	float: left;
+}
+.workExhibition{
+	margin-top: 90px;
+	min-height: 300px;
+	height: auto;
+	width: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.workExhibition-fz{
+	margin-top: 90px;
+	min-height: 300px;
+	height: auto;
+	width: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.workExhibition-fz img{
+	margin: 10px;
+	width: 400px;
+	border: 2px solid #393939;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #000000;
+	float: right;
+}
+
+.workExhibition h3{
+	float: right;
+	text-shadow: 3px 3px 3px #a515ec;
+}
+.workExhibition-fz h3{
+	float: left;
+	text-shadow: 3px 3px 3px #a515ec;
+}
+.workExhibition,.workExhibition-fz h1{
+	text-shadow: 3px 3px 3px #a515ec;
+}
+.Title{
+	position: relative;
+	margin-top: 0px;
+	font-family: "NMF2";
+	font-size: 90px;
+	text-shadow: 3px 3px 3px #a515ec;
+	margin-bottom: 80px;
+}
